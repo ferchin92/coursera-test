@@ -8,8 +8,9 @@ h1 {
   font-family: 'Trebuchet MS', sans-serif,Arial;
 }
 
-p {
+p,span {
   border: 3px solid black;
+  overflow: hidden;
   background-color: dimgray;
   width: 90%;
   height: 150px;
@@ -19,16 +20,41 @@ p {
   color: black;
 }
 
+div{
+position: relative;
+}
+
 
 #p1 {
-clear :left;
-position: relative;
+clear: left;
+position: absolute;
+right: 5%;
 background-color: lightpink;
 width: 100px;
 height: 25px;
 border: 2px solid black;
 text-align: center;
-left: 130px;
+}
+
+#p2 {
+position: absolute;
+right: 5%;
+background-color: indianred;
+color: white;
+width: 100px;
+height: 25px;
+border: 2px solid black;
+text-align: center;
+}
+
+#p3 {
+position: absolute;
+right: 5%;
+background-color: lightgoldenrodyellow;
+width: 100px;
+height: 25px;
+border: 2px solid black;
+text-align: center;
 }
 
 /* Simple Responsive Framework. */
