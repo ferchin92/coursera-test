@@ -21,6 +21,7 @@ p {
 
 
 #p1 {
+clear :left;
 position: relative;
 background-color: lightpink;
 width: 100px;
